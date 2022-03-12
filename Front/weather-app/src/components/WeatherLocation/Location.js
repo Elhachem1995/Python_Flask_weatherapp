@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-const Location = ({city}) => (
+const LocationList = ({city}) => (
    <div>
        <h1>
         {city}
@@ -10,4 +10,4 @@ const Location = ({city}) => (
 Location.propTypes = {
     city : PropTypes.string.isRequired,
 };
-export default Location;
+export default LocationList;

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import LocationList from './components/LocationList';
+import LocationList from './components/WeatherLocation/Location';
 import logo from './logo.svg';
 import './App.css';
 
